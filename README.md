@@ -1,4 +1,4 @@
-## Multi Weak Source Supervision for Fake News Detection
+## Multi-source Weak Social Supervision for Fake News Detection
 
 Authors: Guoqing Zheng (zheng@microsoft.com), Yichuan Li, Kai Shu
 
