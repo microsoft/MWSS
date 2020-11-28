@@ -5,12 +5,30 @@ Authors: Guoqing Zheng (zheng@microsoft.com), Yichuan Li, Kai Shu
 This repository contains code for fake news detection with Multi-source Weak Social Supervision (MWSS), published at **ECML-PKDD 2020** at: [Early Detection of Fake News with Multi-source Weak Social Supervision](https://www.microsoft.com/en-us/research/publication/leveraging-multi-source-weak-social-supervision-for-early-detection-of-fake-news/)
 
 ### Model Structure
+The structure of the MWSS model:
+![model structure](./figure/MWSSModel.png)
+
+The training process of MWSS model:
+![model structure](./figure/MWSS_update.png)
 
 
 ### Requirements
 torch=1.x
 
 transformers=2.4.0
+
+### Prepare dataset
+The weak labeled dataset is in the format of:
+
+| news  | Weak_Label_1  | Weak_Label_2  | ...  |  Weak_Label_K |
+|---|---|---|---|---|
+| Hello this is MWSS readme  | 1  | 0  | ...  |  1 |
+
+The clean labeled dataset is in the format of:
+
+| News  | label |
+|---|---|
+| Hello this is MWSS readme  | 1 |
 
 ### Usage
 
