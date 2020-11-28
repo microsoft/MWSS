@@ -4,6 +4,9 @@ Authors: Guoqing Zheng (zheng@microsoft.com), Yichuan Li, Kai Shu
 
 This repository contains code for fake news detection with Multi-source Weak Social Supervision (MWSS), published at **ECML-PKDD 2020** at: [Early Detection of Fake News with Multi-source Weak Social Supervision](https://www.microsoft.com/en-us/research/publication/leveraging-multi-source-weak-social-supervision-for-early-detection-of-fake-news/)
 
+### Model Structure
+
+
 ### Requirements
 torch=1.x
 
