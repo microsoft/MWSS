@@ -1,8 +1,12 @@
 ## Multi-source Weak Social Supervision for Fake News Detection
 
 Authors: Guoqing Zheng (zheng@microsoft.com), Yichuan Li (yli29@wpi.edu), Kai Shu (kshu@iit.edu)
+This repository contains code for fake news detection with Multi-source Weak Social Supervision (MWSS), published at **ECML-PKDD 2020** at: [Early Detection of Fake News with Multi-source Weak Social Supervision](https://www.microsoft.com/en-us/research/publication/leveraging-multi-source-weak-social-supervision-for-early-detection-of-fake-news/).
 
-This repository contains code for fake news detection with Multi-source Weak Social Supervision (MWSS), published at **ECML-PKDD 2020** at: [Early Detection of Fake News with Multi-source Weak Social Supervision](https://www.microsoft.com/en-us/research/publication/leveraging-multi-source-weak-social-supervision-for-early-detection-of-fake-news/)
+### Dataset
+The dataset is stored at [here](https://drive.google.com/drive/folders/1I5VbfPSWYnD1ntnt2ultR4VCUp_QNwVf?usp=sharing).
+
+
 
 ### Model Structure
 The structure of the MWSS model:
