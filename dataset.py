@@ -55,12 +55,11 @@ class FakeNewsDataset(Dataset):
                 self.attention_mask = list(
                     chain.from_iterable([[i] * self.weak_label_count for i in self.attention_mask]))
             #"credit_label","polarity_label","bias_label"
-            elif weak_type == "cred":
-                self.weak_labels = [i[0] for i in self.weak_labels]
-            elif weak_type == "polar":
-                self.weak_labels = [i[1] for i in self.weak_labels]
-            elif weak_type == "bias":
-                self.weak_labels = [i[2] for i in self.weak_labels]
+            elif weak_type.isdigit():
+                self.weak_labels = [i[int(weak_type)] for i in self.weak_labels]
+            else:
+                print("Default setting of dataset")
+
         self.is_weak = is_weak
         self.weak_type = weak_type
         if self.is_weak and balance_weak:
